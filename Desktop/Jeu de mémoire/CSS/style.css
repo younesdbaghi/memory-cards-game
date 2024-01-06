@@ -1,0 +1,28 @@
+.card {
+    width: 250px;
+    height: 130px;
+    margin: 8px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 24px;
+    background-color: rgb(40, 214, 214);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.card.retournee {
+    background-color: rgb(130, 236, 236);
+}
+  
+.card.similaire {
+    background-color: #2876a7;
+}
+
+#all-container-game {
+    width: 100%;
+}
+
+#plateau-jeu {
+    width: 95%;
+}
